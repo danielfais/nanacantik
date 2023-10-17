@@ -23,9 +23,9 @@
 						</div>
 						<nav class="col-md-6 col-12 tm-nav">
 							<ul class="tm-nav-ul">
-								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link active">Home</a></li>
-								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link">About</a></li>
-								<li class="tm-nav-li"><a href="contact.html" class="tm-nav-link">Contact</a></li>
+								<li class="tm-nav-li"><a class="tm-nav-link active">Home</a></li>
+								<li class="tm-nav-li"><a class="nav-link">About</a></li>
+								<li class="tm-nav-li"><a class="tm-nav-link">Contact</a></li>
 							</ul>
 						</nav>	
 					</div>
@@ -33,78 +33,153 @@
 			</div>
 		</div>
 		<main>
-			<header class="row tm-welcome-section">
-				<h2 class="col-12 text-center tm-section-title">Selamat Datang</h2>
-				<p class="col-12 text-center">Di bawah ini adalah menu yang tersedia:</p>
-			</header>
-			<div class="tm-paging-links">
-				<div id="tm-gallery-page-pizza" class="tm-gallery-page">
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/01.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Salad 1</h4>
-								<p class="tm-gallery-description">Buah dan sayur segar yang dipadukan dengan mayo.</p>
-								<p class="tm-gallery-price">Rp. 89.000</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/02.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Pizza</h4>
-								<p class="tm-gallery-description">Pizza dengan isian daging, sosis, sayur, dan keju mozarella.</p>
-								<p class="tm-gallery-price">Rp. 103.000</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/04.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Spaghetti</h4>
-								<p class="tm-gallery-description">Spaghetti dengan sayur dan taburan keju.</p>
-								<p class="tm-gallery-price">Rp. 95.000</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/05.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Bakso Daging</h4>
-								<p class="tm-gallery-description">100% daging sapi dibalut tepung gurih.</p>
-								<p class="tm-gallery-price">Rp. 66.000</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/07.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Salad 2</h4>
-								<p class="tm-gallery-description">Sayur, buah, dan daging salmon shasimi grade.</p>
-								<p class="tm-gallery-price">Rp. 91.000</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/08.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Dimsum Ayam</h4>
-								<p class="tm-gallery-description">Dimsum tekstur kulit lembut dan kenyal dan isian ayam dan udang.</p>
-								<p class="tm-gallery-price">Rp. 74.000</p>
-							</figcaption>
-						</figure>
-					</article>
-				</div> 
+			<div id="intro" class="tm-section">
+				<header class="row tm-welcome-section">
+					<h2 class="col-12 text-center tm-section-title">Selamat Datang</h2>
+					<p class="col-12 text-center">Di bawah ini adalah menu yang tersedia:</p>
+				</header>
+				<div class="tm-paging-links">
+					<div id="tm-gallery-page-pizza" class="tm-gallery-page">
+						<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+							<figure>
+								<img src="img/gallery/01.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+								<figcaption>
+									<h4 class="tm-gallery-title">Salad 1</h4>
+									<p class="tm-gallery-description">Buah dan sayur segar yang dipadukan dengan mayo.</p>
+									<p class="tm-gallery-price">Rp. 89.000</p>
+								</figcaption>
+							</figure>
+						</article>
+						<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+							<figure>
+								<img src="img/gallery/02.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+								<figcaption>
+									<h4 class="tm-gallery-title">Pizza</h4>
+									<p class="tm-gallery-description">Pizza dengan isian daging, sosis, sayur, dan keju mozarella.</p>
+									<p class="tm-gallery-price">Rp. 103.000</p>
+								</figcaption>
+							</figure>
+						</article>
+						<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+							<figure>
+								<img src="img/gallery/04.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+								<figcaption>
+									<h4 class="tm-gallery-title">Spaghetti</h4>
+									<p class="tm-gallery-description">Spaghetti dengan sayur dan taburan keju.</p>
+									<p class="tm-gallery-price">Rp. 95.000</p>
+								</figcaption>
+							</figure>
+						</article>
+						<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+							<figure>
+								<img src="img/gallery/05.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+								<figcaption>
+									<h4 class="tm-gallery-title">Bakso Daging</h4>
+									<p class="tm-gallery-description">100% daging sapi dibalut tepung gurih.</p>
+									<p class="tm-gallery-price">Rp. 66.000</p>
+								</figcaption>
+							</figure>
+						</article>
+						<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+							<figure>
+								<img src="img/gallery/07.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+								<figcaption>
+									<h4 class="tm-gallery-title">Salad 2</h4>
+									<p class="tm-gallery-description">Sayur, buah, dan daging salmon shasimi grade.</p>
+									<p class="tm-gallery-price">Rp. 91.000</p>
+								</figcaption>
+							</figure>
+						</article>
+						<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+							<figure>
+								<img src="img/gallery/08.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+								<figcaption>
+									<h4 class="tm-gallery-title">Dimsum Ayam</h4>
+									<p class="tm-gallery-description">Dimsum tekstur kulit lembut dan kenyal dan isian ayam dan udang.</p>
+									<p class="tm-gallery-price">Rp. 74.000</p>
+								</figcaption>
+							</figure>
+						</article>
+					</div> 
+				</div>
 			</div>
 			<div class="tm-section tm-container-inner">
 					</div>
 				</div>
 			</div>
+
+		<div id="about" class="tm-section">
+			<div class="container">
+				<main>
+					<header class="row tm-welcome-section">
+						<h2 class="col-12 text-center tm-section-title">Tentang</h2>
+						<p class="col-12 text-center">Dalam perjalanan yang penuh dengan kebahagiaan dan kelezatan, terdapat sebuah tempat yang telah menjadi cinta dan kenyamanan bagi banyak generasi. Restoran Ratatouille, yang dulu dimulai sebagai mimpi sederhana, telah menjadi penjelajahan rasa yang memadukan kebahagiaan dengan cita rasa yang abadi. Kami selalu menjaga kualitas produk Resto Ratatouille dengan memperhatikan penggunaan bahan-bahan berkualitas tinggi, seperti bumbu dan rempah-rempah yang dipilih dengan hati-hati. Ini menunjukkan komitmen Kami untuk menjaga kualitas produk dan menjadikannya sebagai prioritas utama dalam menyajikan hidangan kepada pelanggan.</p>
+					</header>
+					<div class="tm-container-inner tm-persons">
+						<div class="row">
+							<article class="col-lg-6">
+								<figure class="tm-person">
+									<figcaption class="tm-person-description">
+										<h4 class="tm-person-name">Nana</h4>
+										<p class="tm-person-title">Founder and CEO</p>
+										<p class="tm-person-about"></p>
+										<div>
+											<a href="https://fb.com" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>
+											<a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter tm-social-icon"></i></a>
+											<a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram tm-social-icon"></i></a>
+										</div>
+									</figcaption>
+								</figure>
+							</article>
+						</div>
+					</div>
+				</main>
+			</div>
+		</div>
+
+		<div id="contact" class="tm-section">
+			<div class="tm-container-inner-2 tm-contact-section">
+				<div class="row">
+					<div class="col-md-6">
+						<form action="" method="POST" class="tm-contact-form">
+					        <div class="form-group">
+					          <input type="text" name="name" class="form-control" placeholder="Name" required="" />
+					        </div>
+					        <div class="form-group">
+					          <input type="email" name="email" class="form-control" placeholder="Email" required="" />
+					        </div>				
+					        <div class="form-group">
+					          <textarea rows="5" name="message" class="form-control" placeholder="Message" required=""></textarea>
+					        </div>					
+					        <div class="form-group tm-d-flex">
+					          <button type="submit" class="tm-btn tm-btn-success tm-btn-right">
+					            Send
+					          </button>
+					        </div>
+						</form>
+					</div>
+					<div class="col-md-6">
+						<div class="tm-address-box">
+							<h4 class="tm-info-title tm-text-success">Our Address</h4>
+							<address>
+								Jl. Joyo Tambaksari No. 14C
+							</address>
+							<a href="tel:080-xxx-xxxx" class="tm-contact-link">
+								<i class="fas fa-phone tm-contact-icon"></i>080-xxx-xxxx
+							</a>
+							<a href="RestoRatatouille@gmail.com" class="tm-contact-link">
+								<i class="fas fa-envelope tm-contact-icon"></i>RestoRatatouille@gmail.com
+							</a>
+							<div class="tm-contact-social">
+								<a href="https://fb.com/templatemo" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>
+								<a href="#" class="tm-social-link"><i class="fab fa-twitter tm-social-icon"></i></a>
+								<a href="#" class="tm-social-link"><i class="fab fa-instagram tm-social-icon"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		</main>
 		<footer class="tm-footer text-center">
 		</footer>
